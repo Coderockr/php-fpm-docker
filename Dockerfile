@@ -26,5 +26,3 @@ RUN docker-php-ext-configure gettext --with-gettext=/usr/include/ \
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin/ --filename=composer
 
 USER www-data:www-data
-
-EXPOSE 8080
